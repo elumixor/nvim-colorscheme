@@ -95,7 +95,7 @@ return function(colors)
             Visual       { bg = config.dark and colors.bg4 or colors.dark_bg2 }, -- Visual mode selection
             VisualNOS    { bg = colors.bg3 }, -- Visual mode selection when vim is "Not Owning the Selection".
             WarningMsg   { fg = colors.red }, -- Warning messages
-            Whitespace   { fg = colors.fg5.da(15) }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
+            Whitespace   { fg = colors.fg5.da(40) }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
             WinSeparator { VertSplit }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
             WildMenu     { PmenuSel }, -- Current match in 'wildmenu' completion
 
